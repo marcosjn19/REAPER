@@ -27,7 +27,7 @@ public class Auto_DriveTiempo extends CommandBase {
     crono.start();
     //AQUI VA EL TIEMPO
     while( crono.get() < tiempo ){
-      driveTrain.driveFrente(0.5);
+      driveTrain.driveFrente(1.5);
     }
     finish = true;
 
